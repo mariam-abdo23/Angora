@@ -1,174 +1,189 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
+
 
 /* nav */
-.nav-item a:hover{
-    color: rgb(230, 2, 2) ;
+
+.nav-item a:hover {
+    color: rgb(230, 2, 2);
     transform: translate(0.5);
 }
-.social :hover{
-    color: rgb(230, 2, 2);
 
+.social :hover {
+    color: rgb(230, 2, 2);
 }
-.sitting{
+
+.sitting {
     top: 30%;
     background-color: rgb(70, 68, 68);
     width: 47px;
 }
-.sitting:hover{
+
+.sitting:hover {
     background-color: rgb(0, 0, 0);
-   
 }
+
 
 /* section 1 */
 
-h1{
-    animation-name: h1 ;
+h1 {
+    animation-name: h1;
     animation-duration: 1.5s;
 }
+
 @keyframes h1 {
-    from{
+    from {
         transform: translate(1000px);
     }
-    to{
+    to {
         transform: translate(0px);
     }
-
 }
- 
+
+
 /* section 2 */
-.ab{
-    font-size:40px;
+
+.ab {
+    font-size: 40px;
     position: relative;
 }
 
-.text-shadow{
+.text-shadow {
     position: absolute;
     font-size: 70px;
     color: rgba(133, 132, 132, 0.144);
-   
-    text-shadow:4px 4px 10px rgba(0, 0, 0, 0.123) ;
-     bottom:-4px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.123);
+    bottom: -4px;
     transform: translate(125%);
-    border-bottom: solid black thin ;
+    border-bottom: solid black thin;
 }
 
-.about{
+.about {
     line-height: 2;
     font-size: 18px;
 }
 
-.progress{
+.progress {
     margin-bottom: 40px;
 }
 
-.progress-bar{
+.progress-bar {
     background-color: rgba(238, 46, 46, 0.671);
 }
-.Mission{
+
+.Mission {
     background-image: url("./../image/mission.jpg");
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
     color: #fff;
-    padding-bottom:50px ;  
+    padding-bottom: 50px;
 }
 
-.social2{
+.social2 {
     font-size: 40PX;
 }
 
-.social2:hover{
+.social2:hover {
     color: rgba(240, 69, 69, 0.829);
 }
 
+
 /* section 3 */
-.overlay{
+
+.overlay {
     background-color: rgba(236, 20, 20, 0.548);
-    opacity: 0; 
+    opacity: 0;
 }
 
-.persons:hover .overlay{
+.persons:hover .overlay {
     opacity: 1;
-
 }
-.persons:hover img{
+
+.persons:hover img {
     transform: scale(1.12);
     transition-duration: 0.8s;
-
 }
-.name:hover{
+
+.name:hover {
     color: red;
     transition-duration: 0.5s;
 }
 
+
 /* section 4 */
 
-.Recent{
+.Recent {
     transform: translate(110px);
 }
-.nav1{
+
+.nav1 {
     border: red solid thin;
     border-radius: 25px;
-    padding:5px 20px 5px 20px;
+    padding: 5px 20px 5px 20px;
 }
-.nav:hover{
+
+.nav:hover {
     border: red solid thin;
     border-radius: 25px;
-    padding:5px 20px 5px 20px;
+    padding: 5px 20px 5px 20px;
 }
-.lay{
+
+.lay {
     background-color: rgba(253, 251, 251, 0.95);
-    opacity: 0; 
+    opacity: 0;
     top: 5px;
-   bottom: 5px;
-   left: 5px;
-   right: 5px; 
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
 }
-  
 
-.lay:hover{
+.lay:hover {
     opacity: 1;
-    
-
     /* transition-duration:0.5s ; */
 }
 
-.idea{
+.idea {
     margin-top: 150px;
-    padding:120px;
+    padding: 120px;
     background-color: rgb(242, 242, 245);
-    
-
 }
-.margin{
+
+.margin {
     margin-top: 100px;
-} 
+}
+
 
 /* section 5 */
 
-.Services{
-    margin-top:150px;
+.Services {
+    margin-top: 150px;
 }
-.par{
+
+.par {
     width: 300px;
     transform: translate(40px);
 }
-.client{
+
+.client {
     transform: translate(93px);
 }
-.reviews:hover{
-    transform: scale(1.12);
 
+.reviews:hover {
+    transform: scale(1.12);
 }
+
+
 /* section 6 */
-.Blog{
-    transform: translate(62px); 
+
+.Blog {
+    transform: translate(62px);
 }
-.red{
+
+.red {
     padding: 4px 8px;
     color: #fff;
     background-color: rgb(231, 81, 81);
@@ -176,6 +191,8 @@ h1{
     right: 0;
     top: 20px;
 }
+
+
 /* .over{
     background-color: rgb(231, 220, 220);
     opacity: 0; 
@@ -185,46 +202,50 @@ h1{
     opacity: 1;
 } */
 
-
-.card:hover img{
-   
+.card:hover img {
     transform: scale(1.12);
     transition-duration: 0.8s;
-
 }
 
+
 /* section 7 */
-.Affordable{
-    
+
+.Affordable {
     background-image: url("./../image/pricing.jpg");
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
-    color:rgb(255, 247, 247);
-    padding-bottom:50px ;
-    margin-top:150px ;
+    color: rgb(255, 247, 247);
+    padding-bottom: 50px;
+    margin-top: 150px;
 }
-.Affordable h2{
-    margin-top:150px ;
+
+.Affordable h2 {
+    margin-top: 150px;
 }
-.Morbi{
-    margin-top:40px ;
+
+.Morbi {
+    margin-top: 40px;
 }
-.font{
+
+.font {
     font-size: 100px;
 }
-.font::before{
+
+.font::before {
     content: "$";
     position: absolute;
     left: 27%;
     top: 20%;
     font-size: 30px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgb(230, 10, 10);
-    
 }
-.POPULAR{
+
+
+/* .POPULAR{
     
     width: 150px;
     position: absolute;
@@ -232,47 +253,52 @@ h1{
     left: -35px;
     bottom: 160px;
     transform: rotate(-45deg);
-}
+} */
 
-.icon{
+.icon {
     opacity: 0.6;
 }
-.icon:hover{
+
+.icon:hover {
     opacity: 1;
 }
-.small{
+
+.small {
     font-size: medium;
 }
 
 
 /* section 8 */
-.Contact{
+
+.Contact {
     margin-top: 200px;
 }
-.Get{
+
+.Get {
     transform: translate(80px);
 }
 
-.btn-2:hover{
+.btn-2:hover {
     transform: scale(1.1);
-    transition-duration:4s ;
-    
+    transition-duration: 4s;
 }
+
 
 /* footer */
 
-.footer{
+.footer {
     background-image: url(./../image/dotted-map.png);
     background-color: #2b2a2a;
     background-size: contain;
-    position:relative;
+    position: relative;
 }
 
-.angle{
+.angle {
     top: -30px;
     left: 50%;
     transform: translateX(-50%);
 }
+
 .logo {
     height: 60px;
     width: 60px;
@@ -286,41 +312,44 @@ h1{
     justify-content: center;
 }
 
-.logo:hover{
+.logo:hover {
     opacity: 1;
 }
 
-.footer p , a ,ul{
+.footer p,
+a,
+ul {
     font-size: 19px;
     color: rgb(150, 146, 146);
 }
 
-.popular-tags{
+.popular-tags {
     display: block;
-    float:left;
+    float: left;
     border: #fff solid thin;
     padding: 5px 12px;
     border-radius: 8px;
     margin-right: 5px;
     margin-bottom: 10px;
-   
-}
-.popular-tags:hover{
-    color: red;
-   
 }
 
-.Angora{
+.popular-tags:hover {
+    color: red;
+}
+
+.Angora {
     color: white;
 }
-.Angora:hover{
+
+.Angora:hover {
     color: red;
     transition-duration: 0.5s;
 }
-.background{
+
+.background {
     background-color: black;
 }
 
-.icona{
+.icona {
     margin-top: 120px;
 }
